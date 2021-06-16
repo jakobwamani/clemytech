@@ -1,0 +1,31 @@
+.wp-block-file {
+
+	// Undo Gutenberg hover defaults
+	a.wp-block-file__button:active,
+	a.wp-block-file__button:focus,
+	a.wp-block-file__button:hover {
+<<<<<<< HEAD
+		opacity: inherit;
+	}
+
+	a.wp-block-file__button {
+=======
+		color: var(--button--color-text-hover);
+		opacity: inherit;
+	}
+
+	a.wp-block-file__button:visited {
+		color: var(--button--color-text);
+
+		&:hover {
+			color: var(--button--color-text-hover);
+		}
+	}
+
+	.wp-block-file__button {
+		// Extend button style
+		@include button-style();
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+		display: inline-block;
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"apiVersion": 2,
+	"name": "core/calendar",
+	"category": "widgets",
+	"attributes": {
+		"month": {
+			"type": "integer"
+		},
+		"year": {
+			"type": "integer"
+		}
+	},
+	"supports": {
+		"align": true
+<<<<<<< HEAD
+	},
+	"style": "wp-block-calendar"
+=======
+	}
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}

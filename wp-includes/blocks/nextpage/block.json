@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "core/nextpage",
+	"category": "design",
+	"parent": [ "core/post-content" ],
+	"supports": {
+		"customClassName": false,
+		"className": false,
+		"html": false
+<<<<<<< HEAD
+	},
+	"editorStyle": "wp-block-nextpage-editor"
+=======
+	}
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}

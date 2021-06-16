@@ -1,0 +1,76 @@
+{
+	"apiVersion": 2,
+	"name": "core/button",
+	"category": "design",
+	"parent": [
+		"core/buttons"
+	],
+	"attributes": {
+		"url": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "href"
+		},
+		"title": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "title"
+		},
+		"text": {
+			"type": "string",
+			"source": "html",
+			"selector": "a"
+		},
+		"linkTarget": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "target"
+		},
+		"rel": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "rel"
+		},
+		"placeholder": {
+			"type": "string"
+		},
+		"borderRadius": {
+			"type": "number"
+		},
+		"style": {
+			"type": "object"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"gradient": {
+			"type": "string"
+<<<<<<< HEAD
+		},
+		"width": {
+			"type": "number"
+=======
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": true,
+		"alignWide": false,
+		"reusable": false,
+		"__experimentalSelector": ".wp-block-button > a"
+<<<<<<< HEAD
+	},
+	"editorStyle": "wp-block-button-editor",
+	"style": "wp-block-button"
+=======
+	}
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}

@@ -1,0 +1,37 @@
+{
+	"apiVersion": 2,
+	"name": "core/social-link",
+	"category": "widgets",
+	"parent": [
+		"core/social-links"
+	],
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"service": {
+			"type": "string"
+		},
+		"label": {
+			"type": "string"
+		}
+	},
+	"usesContext": [
+<<<<<<< HEAD
+		"openInNewTab",
+		"iconColorValue",
+		"iconBackgroundColorValue"
+=======
+		"openInNewTab"
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+	],
+	"supports": {
+		"reusable": false,
+		"html": false
+<<<<<<< HEAD
+	},
+	"editorStyle": "wp-block-social-link-editor"
+=======
+	}
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}

@@ -1,0 +1,23 @@
+.wp-block-social-links {
+
+	a:focus {
+		color: var(--global--color-primary);
+	}
+
+	&.is-style-twentytwentyone-social-icons-color {
+
+		a {
+			color: var(--global--color-primary);
+		}
+
+<<<<<<< HEAD
+		.wp-social-link,
+		&.has-icon-background-color.has-icon-background-color .wp-social-link {
+=======
+		.wp-social-link {
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+			background: none;
+		}
+
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"apiVersion": 2,
+	"name": "core/group",
+	"category": "design",
+	"attributes": {
+		"tagName": {
+			"type": "string",
+			"default": "div"
+		},
+		"templateLock": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"anchor": true,
+		"html": false,
+		"color": {
+			"gradients": true,
+			"link": true
+		},
+		"spacing": {
+			"padding": true
+<<<<<<< HEAD
+		},
+		"__experimentalBorder": {
+			"radius": true
+		}
+	},
+	"editorStyle": "wp-block-group-editor",
+	"style": "wp-block-group"
+=======
+		}
+	}
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}

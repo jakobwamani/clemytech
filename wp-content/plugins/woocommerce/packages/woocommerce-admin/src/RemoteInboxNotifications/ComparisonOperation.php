@@ -1,0 +1,46 @@
+<?php
+/**
+ * Compare two operands using the specified operation.
+ */
+
+namespace Automattic\WooCommerce\Admin\RemoteInboxNotifications;
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Compare two operands using the specified operation.
+ */
+class ComparisonOperation {
+	/**
+	 * Compare two operands using the specified operation.
+	 *
+	 * @param object $left_operand  The left hand operand.
+	 * @param object $right_operand The right hand operand.
+	 * @param string $operation     The operation used to compare the operands.
+	 */
+	public static function compare( $left_operand, $right_operand, $operation ) {
+		switch ( $operation ) {
+			case '=':
+				return $left_operand === $right_operand;
+			case '<':
+				return $left_operand < $right_operand;
+			case '<=':
+				return $left_operand <= $right_operand;
+			case '>':
+				return $left_operand > $right_operand;
+			case '>=':
+				return $left_operand >= $right_operand;
+			case '!=':
+				return $left_operand !== $right_operand;
+<<<<<<< HEAD
+			case 'contains':
+				return in_array( $right_operand, $left_operand, true );
+			case '!contains':
+				return ! in_array( $right_operand, $left_operand, true );
+=======
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+		}
+
+		return false;
+	}
+}

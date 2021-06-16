@@ -1,0 +1,61 @@
+{
+	"apiVersion": 2,
+	"name": "core/social-links",
+	"category": "widgets",
+	"attributes": {
+<<<<<<< HEAD
+		"iconColor": {
+			"type": "string"
+		},
+		"customIconColor": {
+			"type": "string"
+		},
+		"iconColorValue": {
+			"type": "string"
+		},
+		"iconBackgroundColor": {
+			"type": "string"
+		},
+		"customIconBackgroundColor": {
+			"type": "string"
+		},
+		"iconBackgroundColorValue": {
+			"type": "string"
+		},
+		"openInNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"size": {
+			"type": "string"
+		}
+	},
+	"providesContext": {
+		"openInNewTab": "openInNewTab",
+		"iconColorValue": "iconColorValue",
+		"iconBackgroundColorValue": "iconBackgroundColorValue"
+=======
+		"openInNewTab": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"providesContext": {
+		"openInNewTab": "openInNewTab"
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+	},
+	"supports": {
+		"align": [
+			"left",
+			"center",
+			"right"
+		],
+		"anchor": true
+<<<<<<< HEAD
+	},
+	"editorStyle": "wp-block-social-links-editor",
+	"style": "wp-block-social-links"
+=======
+	}
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}

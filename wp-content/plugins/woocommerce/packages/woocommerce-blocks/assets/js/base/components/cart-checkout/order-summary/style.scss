@@ -1,0 +1,137 @@
+<<<<<<< HEAD
+=======
+.wc-block-components-order-summary {
+	.wc-blocks-components-panel__button {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+.wc-block-components-order-summary__content {
+	display: table;
+	width: 100%;
+}
+
+.wc-block-components-order-summary-item {
+	@include with-translucent-border(0 0 1px);
+<<<<<<< HEAD
+	@include font-size(small);
+	display: flex;
+	padding-bottom: 1px;
+	padding-top: $gap;
+	width: 100%;
+
+	&:first-child {
+		padding-top: 0;
+	}
+
+=======
+	display: table-row;
+	padding-bottom: 1px;
+	width: 100%;
+
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+	&:last-child {
+		> div {
+			padding-bottom: 0;
+		}
+
+		&::after {
+			display: none;
+		}
+	}
+<<<<<<< HEAD
+
+	.wc-block-components-product-metadata {
+		@include font-size(regular);
+	}
+=======
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}
+
+.wc-block-components-order-summary-item__image,
+.wc-block-components-order-summary-item__description {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.wc-block-components-order-summary-item__image {
+	width: #{$gap-large * 2};
+<<<<<<< HEAD
+=======
+	padding-top: $gap;
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+	padding-bottom: $gap;
+	position: relative;
+
+	> img {
+		width: #{$gap-large * 2};
+		max-width: #{$gap-large * 2};
+	}
+}
+
+.wc-block-components-order-summary-item__quantity {
+<<<<<<< HEAD
+=======
+	@include font-size(smaller);
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+	align-items: center;
+	background: #fff;
+	border: 2px solid;
+	border-radius: 1em;
+	box-shadow: 0 0 0 2px #fff;
+	color: #000;
+	display: flex;
+	line-height: 1;
+	min-height: 20px;
+	padding: 0 0.4em;
+	position: absolute;
+	justify-content: center;
+	min-width: 20px;
+	right: 0;
+<<<<<<< HEAD
+	top: 0;
+=======
+	top: $gap;
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+	transform: translate(50%, -50%);
+	white-space: nowrap;
+	z-index: 1;
+}
+
+.wc-block-components-order-summary-item__description {
+	padding-left: $gap-large;
+<<<<<<< HEAD
+	padding-right: $gap-small;
+	padding-bottom: $gap;
+=======
+	padding-top: $gap;
+	padding-bottom: $gap;
+	line-height: 1.375;
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+
+	p,
+	.wc-block-components-product-metadata {
+		line-height: 1.375;
+		margin-top: #{ ( $gap-large - $gap ) / 2 };
+	}
+}
+
+<<<<<<< HEAD
+.wc-block-components-order-summary-item__total-price {
+	font-weight: bold;
+	margin-left: auto;
+	text-align: right;
+}
+
+
+.wc-block-components-order-summary-item__individual-prices {
+	display: block;
+=======
+.wc-block-components-order-summary-item__header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+>>>>>>> 9921f170221e7965d8f194a6389aa7d7e42d15f3
+}
